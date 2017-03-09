@@ -1,0 +1,90 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Assignment 4</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Mada" rel="stylesheet">
+  
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<nav id="custom-bootstrap-menu" class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">NYU</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling. NO NAVIGATION LINKS IN THIS ONE </nav> -->
+
+<div class="jumbotron">
+      <div class="container">
+        <h1>Charkop, the Sites and Services Project</h1>
+        <h3 class= 'thick'> An NYU Advanced Project in International Development </h3>
+      </div>
+    </div>
+
+<div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>The Sites and Services Approach</h2>
+          <p>In the early 1980’s the World Bank established a “sites and services” project in Charkop, Mumbai, which aimed to provide incremental, affordable housing solutions to lower and middle income groups in the region. The site was divided into different sized plots of land that were supported with basic infrastructure. Residents who moved to the site paid a below market rate over 20 years for the land and built houses at their own pace, adding floors and renovating as they could. The project did not achieve the intended outcomes in the timeline initially defined; as a result the Bank abandoned the “sites and services” approach. Twenty years later the site was revisited and observed to be a flourishing mixed income and mixed use neighborhood. 
+ </p>
+        </div>
+        <div class="col-md-4">
+          <h2>Charkop today</h2>
+          <p>The original physical and administrative design elements of Charkop work in concert to create the livable and sustainable community there today. The neighborhood’s design of small, dense households organized around a shared semi-private outdoor space promotes social interaction. These households together function as a single unit formalized through required membership in a self-governing housing society, which manages utilities, resolves disputes, and organizes regular meetings and festivals. Over time, this arrangement has nurtured close relationships among residents who all value the neighborhood, which combined with security of tenure offered the right incentives for the continued investment and development of the neighborhood.</p>
+          
+       </div>
+        <div class="col-md-4">
+          <h2>Findings</h2>
+          <p>The interconnection of the original physical and administrative design elements of the sites and services project laid the groundwork for the development and sustainability of this livable community. At its core, the small and dense households organized around a shared semi-private outdoor space fostered opportunities for social interaction and mutual needs to be met that led overtime to the creation of a tight community. These households formed an unique cluster formalized through required membership in a housing society, which provides a venue for self-governance, utilities management, dispute resolution, and social interactions. The security of tenure and the buy-in of the residents offered the right incentives for the continued investment and sustainability of the neighborhood.</p>
+          
+        </div>
+      </div>
+
+      <hr>
+
+
+      
+    </div>
+<!-- End Boostrap Column Layout-->
+    
+
+<div class="container">
+<div class='row'>
+<div class= 'col-md-6'>
+  <h1>Click to zoom into the sectors</h1>
+   </div>
+
+  <div id="mapContainer">
+  </div>
+
+   <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/districts.js"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
